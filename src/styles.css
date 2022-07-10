@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  background-color: #ff726f;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.inputCreds {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.creds {
+  margin: 5px;
+  background-color: white;
+  border-color: white;
+  color: black;
+  border-radius: 5px;
+  width: 200px;
+  height: 25px;
+}
+
+button,
+.button {
+  background-color: #1cb0f6;
+  margin: 10px;
+  width: 150px;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+
+button:hover,
+button:focus,
+.link:hover {
+  background-color: #f082ac;
+}
+
+.Homebtns {
+  margin: 20px;
+  margin-top: 45%;
+}
+
+.state {
+  font-size: 16px;
+  font-weight: 600;
+  align-self: center !important;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  margin-left: 10px;
+}
+
+.question {
+  font-size: 30px;
+  line-height: 29px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+}
+
+.choices > li {
+  background-color: white;
+  color: black;
+  height: fit-content;
+  margin: 2px;
+  padding: 1.5px 2px;
+  align-items: center;
+  border: solid 2.9px #bba6f5;
+  box-shadow: 0px 15px 35px rgb(0 0 0 / 10%);
+  width: 50vw;
+}
+
+.choices > li:hover {
+  background-color: #772139;
+  color: white;
+}
+.choices > li.correct {
+  background-color: rgb(53, 212, 53);
+}
+.choices > li.incorrect {
+  background-color: rgb(206, 58, 58);
+}
+
+.container1 {
+  position: relative;
+  display: flex;
+  padding: 2px 7px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.playcard {
+  width: 50vh;
+  margin: 2px;
+}
+
+.link {
+  position: absolute;
+  width: 15%;
+  bottom: -270px;
+  right: 5px;
+}
+
+.score {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 16px;
+}
